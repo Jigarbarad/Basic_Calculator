@@ -1,0 +1,33 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+    background-size: cover;
+    background-position: 0%;
+    
+}
+.calculator {
+    width: 250px;
+    margin: 200px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding:  10px 10px;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px;
+    font-size: 20px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
